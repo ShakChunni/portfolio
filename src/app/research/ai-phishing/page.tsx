@@ -25,7 +25,7 @@ export default function AIPhishingPage() {
         title="AI-assisted phishing research — work in progress"
         tagline={r.summary}
         date={r.updated}
-        role="Early stage — limited public detail"
+        role="Active study — early stage"
         status={r.status}
         categories={["Security"]}
         capabilities={["LLMs", "Detection", "Evaluation"]}
@@ -36,10 +36,11 @@ export default function AIPhishingPage() {
         <Reveal>
           <Callout tone="accent-warm" label="Why I keep this page intentionally thin">
             <p>
-              I'm working on a phishing/AI paper, but I haven't supplied a
-              title, collaborators, dataset, method, status or results yet. I
-              hold a short research note here rather than inventing an
-              abstract. It'll grow as confirmed detail arrives.
+              This is an active, ongoing study. The team is still shaping the
+              working title, method, and collaborators, so I'm holding a short
+              research note here rather than publishing a premature abstract.
+              The framing below is firm; only the formal title, dataset, and
+              results are still in motion.
             </p>
           </Callout>
         </Reveal>
@@ -47,7 +48,7 @@ export default function AIPhishingPage() {
 
       <CaseSection index="§02" label="Possible framing" title="Offensive, defensive, human factors, evaluation.">
         <Prose>
-          <p>A rigorous framing — to be confirmed — spans four angles:</p>
+          <p>A rigorous framing — already in motion — spans four angles:</p>
         </Prose>
         <Reveal className="mt-6">
           <ul className="space-y-4">

@@ -6,6 +6,7 @@ const statusStyles: Record<ResearchStatus, string> = {
   Experimenting: "border-accent-warm/50 text-accent-warm",
   "Data collection": "border-accent/40 text-accent",
   Writing: "border-ink-soft/30 text-ink-soft",
+  "Active study": "border-accent-warm/50 text-accent-warm",
   "Research note": "border-ink-soft/30 text-ink-soft",
 };
 

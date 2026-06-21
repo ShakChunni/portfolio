@@ -75,11 +75,14 @@ export default function FilmFavePage() {
       <CaseSection index="§04" label="Limitations" title="What my evidence does and doesn't support.">
         <Prose>
           <p>
-            The README mentions rating and sharing flows; my visible repository
-            should be verified before I state those are complete. It's not a
-            "community" — there's no backend or user system. The TMDb API
-            configuration should be audited for committed keys before I drive
-            portfolio traffic toward it.
+            FilmFave is a client-side app — not a community product, and there
+            is no backend, user system, or live data. The project ships as a
+            public repository and a distributable Android APK; the public
+            repository is the source of truth for what was actually built, and
+            the README describes a broader scope than the implementation
+            delivers. I haven't audited the TMDb API configuration for
+            committed keys, so I won't direct portfolio traffic through the
+            live TMDb integration.
           </p>
         </Prose>
       </CaseSection>

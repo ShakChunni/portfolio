@@ -64,10 +64,11 @@ export default function PowerFitnessPage() {
       <CaseSection index="§03" label="Limitations" title="I describe what I built, not what was promised.">
         <Prose>
           <p>
-            The README promises goals, analytics and personalised plans more
-            broadly than my reviewed evidence supports. I describe the exact
-            implemented screens and state flows, and leave the broader promises
-            to a final code audit.
+            The project ships as a public repository and a distributable
+            Android APK. I describe the implemented screens and state flows
+            I've personally reviewed, and treat the README's broader promises
+            (goals, analytics, personalised plans) as scope that would still
+            need a full code audit before I claim it as built.
           </p>
         </Prose>
       </CaseSection>

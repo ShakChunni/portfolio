@@ -15,6 +15,7 @@ export type ResearchStatus =
   | "Experimenting"
   | "Data collection"
   | "Writing"
+  | "Active study"
   | "Research note";
 
 export type Disclosure =
@@ -132,8 +133,9 @@ export const experience = [
     role: "Backend Engineer",
     period: "Sep 2022 — May 2024",
     location: "Remote",
-    summary: "Backend engineering work; my exact duties and project naming are pending confirmation.",
-    confidence: "provisional" as Confidence,
+    summary:
+      "I worked as a backend engineer on the LittleBirdie project — optimising backend datasets with complex SQL aggregations and indexing strategies to reduce API latency, and overseeing critical data life-cycles with rigorous data entry and manual cleansing for the automated processing tools. I also collaborated with cross-functional teams to design data-driven React components that translated raw backend analytics into interactive user engagement metrics.",
+    confidence: "user-confirmed" as Confidence,
   },
 ];
 
@@ -241,16 +243,16 @@ export const research: Research[] = [
     slug: "ai-phishing",
     title: "AI-assisted phishing research — work in progress",
     shortTitle: "AI & Phishing",
-    status: "Research note",
+    status: "Active study",
     area: "Applied security · LLMs · Detection",
     question:
       "How do LLMs change the cost, personalisation, fluency and scale of phishing — and can detectors generalise across human, template, LLM-generated and adversarially perturbed examples?",
-    method: "Working title, collaborators and method pending. Out-of-distribution and temporal splits; calibration and false-positive cost.",
+    method: "Out-of-distribution and temporal splits, model-family holdouts, calibration, and false-positive cost. Title, dataset, and collaborators are still being worked out as the study progresses.",
     updated: "2026-06",
     confidence: "user-confirmed",
     order: 3,
     summary:
-      "An active study at an early stage. I'm keeping this page a short research note rather than inventing an abstract until the title, method and collaborators are confirmed.",
+      "An active, ongoing study. The team is still shaping the working title, method, and collaborators, so I keep this page a short research note rather than publishing a premature abstract. The framing below is firm; only the formal title, dataset, and results are still in motion.",
   },
   {
     slug: "federated-metaverse-authentication",
@@ -499,5 +501,5 @@ export const publication = {
 }`,
   summary:
     "My paper addresses identity and access security across federated metaverse environments, proposing a dynamic authentication framework intended to strengthen secure identity management in decentralised virtual environments. The official proceedings verify the author list, conference, year and pages.",
-  note: "This was a group publication — my exact contribution (research question, protocol/design, implementation, analysis, writing) will be added once I've written it up precisely. I don't claim to have individually authored every part.",
+  note: "I'm the second author in a group of five. My contributions focused on the diagrams, working through the authentication design and its pipeline structure, contributing to the formal notations, supporting the literature review, and a few other critical pieces of the work. I don't claim to have individually authored every part of a group publication.",
 };

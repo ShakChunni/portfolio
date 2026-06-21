@@ -251,11 +251,13 @@ export default function FNHConnectPage() {
         <Reveal>
           <Callout tone="accent-warm" label="Honest disclosure">
             <p>
-              The public README reports no CI/CD workflow files and doesn't
-              identify a comprehensive automated test suite. I don't claim
-              mature CI/CD or extensive test coverage for FNH Connect. Whether
-              the system is in live use, and which operational outcomes I can
-              state publicly, I'd confirm before making such a claim.
+              FNH Connect is live and in active operational use at Feroza
+              Nursing Home — I keep specific operational metrics and live-system
+              claims in conversation rather than on this page. The public
+              repository shows the production code, but reports no CI/CD
+              workflow files and doesn't identify a comprehensive automated
+              test suite, so I don't claim mature CI/CD or extensive test
+              coverage here.
             </p>
           </Callout>
         </Reveal>

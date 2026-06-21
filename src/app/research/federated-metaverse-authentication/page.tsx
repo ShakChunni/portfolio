@@ -107,15 +107,10 @@ export default function MetaverseAuthPage() {
         </Reveal>
       </CaseSection>
 
-      <CaseSection index="§04" label="My contribution" title="To be stated precisely — not assumed.">
+      <CaseSection index="§04" label="My contribution" title="Second author in a five-author group paper.">
         <Reveal>
-          <Callout tone="accent-warm" label="Pending my first-person statement">
-            <p>
-              {publication.note} The exact research question, protocol/design
-              work, implementation, analysis and writing responsibilities will
-              be added once I've written them up precisely. I don't claim to
-              have individually authored every part of a group publication.
-            </p>
+          <Callout tone="accent-warm" label="What I did on this paper">
+            <p>{publication.note}</p>
           </Callout>
         </Reveal>
       </CaseSection>

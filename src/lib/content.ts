@@ -50,6 +50,7 @@ export const profile = {
     researchgate: { label: "ResearchGate", href: "https://www.researchgate.net/profile/Fm-Ashfaq", handle: "Fm-Ashfaq" },
     scholar: { label: "Google Scholar", href: "https://scholar.google.com/citations?user=-tP7SxwAAAAJ&hl=en", handle: "F.M. Ashfaq" },
     doi: { label: "IEEE publication", href: "https://doi.org/10.1109/ICICT64387.2024.10839681", handle: "10.1109/ICICT64387.2024.10839681" },
+    cal: { label: "Book a call", href: "https://cal.com/ashfaq", handle: "cal.com/ashfaq" },
   },
 } as const;
 
@@ -106,11 +107,11 @@ export const education = [
 export const experience = [
   {
     company: "CodeXGate",
-    role: "Software Engineer (Part-time)",
-    period: "Aug 2024 — present",
+    role: "Software Engineer",
+    period: "Aug 2024 — Jan 2026 (full-time) · Jan 2026 — present (part-time)",
     location: "Remote / Perth",
     summary:
-      "I build full-stack web systems here part-time — product interfaces, backend services, data models, automation, and operational reporting. The work spans several client platforms you can read about below. I'm currently looking for a full-time role alongside my postgraduate studies.",
+      "I joined CodeXGate in August 2024 as a full-time software engineer and stepped into a part-time, helping-out role from January 2026 when I started my Masters at Curtin. Across both phases I own end-to-end product engineering — front-end interfaces, backend services, data models, automation, and operational reporting — across the client platforms listed below. I'm currently looking for a full-time role alongside my postgraduate studies.",
     bullets: [
       "End-to-end web application development and frontend/backend integration",
       "Database schema and system architecture work",

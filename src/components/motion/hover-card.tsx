@@ -1,5 +1,6 @@
 "use client";
 
+import Link from "next/link";
 import { motion, useReducedMotion } from "motion/react";
 import type { ReactNode } from "react";
 import { cn } from "@/lib/utils";
@@ -53,9 +54,9 @@ export function HoverCard({
 
   if (href) {
     return (
-      <a href={href} className="block">
+      <Link href={href} className="block" prefetch>
         {inner}
-      </a>
+      </Link>
     );
   }
   return inner;
